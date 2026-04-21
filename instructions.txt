@@ -1,0 +1,5 @@
+## to run
+source .venv/bin/activate
+
+##to update requirement file
+uv add -r requirements.txt 
