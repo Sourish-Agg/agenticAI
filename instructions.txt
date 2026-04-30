@@ -3,3 +3,9 @@ source .venv/bin/activate
 
 ##to update requirement file
 uv add -r requirements.txt 
+
+##load .env file whenever add a new key
+import os 
+from dotenv import load_dotenv
+load_dotenv()
+
